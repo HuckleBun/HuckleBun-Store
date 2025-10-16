@@ -17,8 +17,7 @@ const nextConfig: NextConfig = {
   },
   transpilePackages: ['three'],
   devIndicators: {
-    buildActivity: false,
-    buildActivityPosition: 'bottom-right',
+    position: 'bottom-right',
   },
 };
 
